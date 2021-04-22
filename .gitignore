@@ -1,8 +1,8 @@
 node_modules/
-.serverless
+.serverless/
+.env
+.DS_Store
 package-lock.json
 .npmignore
 babel.config.js
 webpack.config.js
-.env
-.DS_Store
