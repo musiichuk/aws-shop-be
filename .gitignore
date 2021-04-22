@@ -1,6 +1,6 @@
 node_modules/
 .serverless/
-.env
+product-service/.env
 .DS_Store
 package-lock.json
 .npmignore
