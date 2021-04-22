@@ -3,3 +3,4 @@ product-service/.serverless
 product-service/package-lock.json
 product-service/.npmignore
 product-service/babel.config.js
+product-service/.env
