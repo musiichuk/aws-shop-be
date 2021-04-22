@@ -1,6 +1,2 @@
 product-service-aws/node_modules/
-product-service-aws/.serverless
-product-service-aws/package-lock.json
-product-service-aws/.npmignore
-product-service-aws/babel.config.js
-product-service-aws/.env
+product-service-aws/.serverless/
