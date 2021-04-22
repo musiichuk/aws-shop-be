@@ -4,6 +4,5 @@ product-service/package-lock.json
 product-service/.npmignore
 product-service/babel.config.js
 product-service/webpack.config.js
-product-service/.env
-product-service/.DS_Store
-.DS_Store
+*.env
+*.DS_Store
