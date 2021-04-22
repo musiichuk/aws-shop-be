@@ -1,0 +1,49 @@
+service: product-service
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  stage: dev
+  region: eu-west-1
+
+# you can define service wide environment variables here
+  environment:
+    PG_HOST: products-instance.ck2amayvjttv.eu-west-1.rds.amazonaws.com
+    PG_PORT: 5432
+    PG_DATABASE: products
+    PG_USERNAME: postgres
+    PG_PASSWORD: 88Q3VAm7tkUghsYparyA
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+custom:
+  webpack:
+    webpackConfig: 'webpack.config.js'
+    includeModules: true
+
+functions:
+  getProducts:
+    handler: handler.getProducts
+    events:
+      - http:
+          path: products
+          method: get
+  getProduct:
+    handler: handler.getProduct
+    events:
+      - http:
+          path: products/{id}
+          method: get
+  addProduct:
+    handler: handler.addProduct
+    events:
+      - http:
+          path: products
+          method: post
+  fillDatabase:
+    handler: pg-client-lambda.invoke
