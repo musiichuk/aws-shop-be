@@ -1,2 +1,2 @@
-product-service-aws/node_modules/
-product-service-aws/.serverless/
+node_modules/
+.serverless/
