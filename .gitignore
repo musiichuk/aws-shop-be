@@ -1,8 +1,8 @@
-product-service/node_modules/
-product-service/.serverless
-product-service/package-lock.json
-product-service/.npmignore
-product-service/babel.config.js
-product-service/webpack.config.js
-*.env
-*.DS_Store
+node_modules/
+.serverless
+package-lock.json
+.npmignore
+babel.config.js
+webpack.config.js
+.env
+.DS_Store
