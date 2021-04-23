@@ -6,4 +6,4 @@ package-lock.json
 npmignore
 babel.config.js
 webpack.config.js
-env
+.env*.local
