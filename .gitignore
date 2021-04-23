@@ -1,10 +1,9 @@
 node_modules/
-.serverless/
+serverless/
 product-service/.env
-.DS_Store
+DS_Store
 package-lock.json
-.npmignore
+npmignore
 babel.config.js
-/product-service/webpack.config.js
-/product-service/.DS_Store
-/product-service/.env
+webpack.config.js
+env
