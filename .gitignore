@@ -1,9 +1,0 @@
-node_modules/
-serverless/
-product-service/.env
-DS_Store
-package-lock.json
-npmignore
-babel.config.js
-webpack.config.js
-.env*.local
