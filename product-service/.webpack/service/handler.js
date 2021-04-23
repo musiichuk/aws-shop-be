@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_handlers_getProducts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/handlers/getProducts */ \"./src/handlers/getProducts.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getProducts\", function() { return _src_handlers_getProducts__WEBPACK_IMPORTED_MODULE_0__[\"getProducts\"]; });\n\n/* harmony import */ var _src_handlers_getProduct__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/handlers/getProduct */ \"./src/handlers/getProduct.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getProduct\", function() { return _src_handlers_getProduct__WEBPACK_IMPORTED_MODULE_1__[\"getProduct\"]; });\n\n/* harmony import */ var _src_handlers_addProduct__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/handlers/addProduct */ \"./src/handlers/addProduct.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"addProduct\", function() { return _src_handlers_addProduct__WEBPACK_IMPORTED_MODULE_2__[\"addProduct\"]; });\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./handler.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_handlers_getProducts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/handlers/getProducts */ \"./src/handlers/getProducts.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getProducts\", function() { return _src_handlers_getProducts__WEBPACK_IMPORTED_MODULE_0__[\"getProducts\"]; });\n\n/* harmony import */ var _src_handlers_getProduct__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/handlers/getProduct */ \"./src/handlers/getProduct.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getProduct\", function() { return _src_handlers_getProduct__WEBPACK_IMPORTED_MODULE_1__[\"getProduct\"]; });\n\n/* harmony import */ var _src_handlers_addProduct__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/handlers/addProduct */ \"./src/handlers/addProduct.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"addProduct\", function() { return _src_handlers_addProduct__WEBPACK_IMPORTED_MODULE_2__[\"addProduct\"]; });\n\n__webpack_require__(/*! dotenv */ \"dotenv\").config();\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./handler.js?");
 
 /***/ }),
 
@@ -191,6 +191,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"dbOptions\", function() { return dbOptions; });\nconst { PG_HOST, PG_PORT, PG_DATABASE, PG_USERNAME, PG_PASSWORD } = process.env;\nconst dbOptions = {\n    host: PG_HOST,\n    port: PG_PORT,\n    database: PG_DATABASE,\n    user: PG_USERNAME,\n    password: PG_PASSWORD,\n    ssl: {\n        rejectUnauthorized: false\n    },\n    connectionTimeout: 5000\n};\n\n//# sourceURL=webpack:///./src/utils/dbOptions.js?");
+
+/***/ }),
+
+/***/ "dotenv":
+/*!*************************!*\
+  !*** external "dotenv" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"dotenv\");\n\n//# sourceURL=webpack:///external_%22dotenv%22?");
 
 /***/ }),
 
